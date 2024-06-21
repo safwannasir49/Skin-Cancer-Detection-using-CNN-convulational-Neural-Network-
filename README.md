@@ -3,7 +3,7 @@
         <p>The objective of this project is to develop a Convolutional Neural Network (CNN) model that can detect melanoma, a type of skin cancer, using dermatoscopic images. The model aims to classify images into 'Benign' (non-cancerous) or 'Malignant' (cancerous) with an accuracy of approximately 90%.</p>      
         <h2>Dataset</h2>
         <p>The project utilizes the HAM10000 dataset, which comprises 10,000 dermatoscopic images labeled as 'Benign' or 'Malignant'. This dataset is a comprehensive collection of skin lesion images that are crucial for training and evaluating the CNN model.</p>
-        <p><a href="https://www.kaggle.com/datasets/kmader/skin-cancer-mnist-ham10000" target="_blank">HAM10000 Dataset on Kaggle</a></p>
+        <p align="center"><a href="https://www.kaggle.com/datasets/kmader/skin-cancer-mnist-ham10000" target="_blank">HAM10000 Dataset on Kaggle</a></p>
         <br><br>
         <div align="center">
         <img src="Images/download-2.png">    
