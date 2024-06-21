@@ -1,10 +1,14 @@
-<h1>Skin Cancer Detection Using CNN</h1>
+<h1 align="center">Skin Cancer Detection Using CNN</h1>
         <h2>Project Overview</h2>
         <p>The objective of this project is to develop a Convolutional Neural Network (CNN) model that can detect melanoma, a type of skin cancer, using dermatoscopic images. The model aims to classify images into 'Benign' (non-cancerous) or 'Malignant' (cancerous) with an accuracy of approximately 90%.</p>      
         <h2>Dataset</h2>
         <p>The project utilizes the HAM10000 dataset, which comprises 10,000 dermatoscopic images labeled as 'Benign' or 'Malignant'. This dataset is a comprehensive collection of skin lesion images that are crucial for training and evaluating the CNN model.</p>
         <p><a href="https://www.kaggle.com/datasets/kmader/skin-cancer-mnist-ham10000" target="_blank">HAM10000 Dataset on Kaggle</a></p>
-                <h2>Technologies Used</h2>
+        <br><br>
+        <div align="center">
+        <img src="Images/download-2.png">    
+        </div>
+        <h2>Technologies Used</h2>  
         <ul>
             <li><strong>TensorFlow:</strong> An open-source machine learning framework for building and training neural networks.</li>
             <li><strong>Keras:</strong> A high-level API for building and training deep learning models, integrated into TensorFlow.</li>
@@ -28,13 +32,13 @@
         </ul>    
         <h2>Model Performance</h2>
         <p>The model achieved an accuracy of approximately 90% on the validation set. Below is the output for accuracy and loss during training:</p>
-        <img src="">
+        <img src="Images/download.png">
         <pre aling="center">
         <p><strong>Loss:</strong> 0.2284</p>
         <p><strong>Accuracy:</strong> 0.9000</p>
         </pre>
         <h3>Confusion Matrix</h3>
-        <img src="path_to_confusion_matrix.png" alt="Confusion Matrix">
+        <img src="Images/download-1.png" alt="Confusion Matrix">
         <h2>Deployment</h2>
         <p>The trained model is deployed using Streamlit to create a user-friendly web application for skin cancer detection. The application allows users to upload an image and receive a prediction on whether the lesion is benign or malignant.</p>
         <h2>Instructions to Run the Project</h2>
